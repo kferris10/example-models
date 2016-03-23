@@ -577,7 +577,7 @@ lower-level parameters around the mean.  During warmup, Stan globally
 adapts its step size to a target acceptance rate, which can lead to
 too large step sizes for highly curved regions of the posterior.  To
 mitigate this problem, we need to either reduce the step size or
-reparameterize.  We firt consider reducing step size, and then in the
+reparameterize.  We first consider reducing step size, and then in the
 next secton consider the superior alternative of reparameterization.
 
 To reduce the step size of the algorithm, we want to lower the initial
@@ -693,7 +693,7 @@ are detailed in the Stan manual (Stan Development Team 2015).
 It is clear here that when $\kappa$ is smaller, there is more latitude
 for $\theta_1$ to move around.  This phenomenon was originally
 discussed by Neal (2003), is covered in the Stan manual (Stan
-Development Team 2015), and is analyzed fors Hamiltonian Monte Carlo by
+Development Team 2015), and is analyzed for Hamiltonian Monte Carlo by
 Betancourt and Girolami (2015).
 
 
